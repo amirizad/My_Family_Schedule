@@ -1,11 +1,11 @@
   // Initialize Firebase
 var config = {
-apiKey: "AIzaSyCd8wVB2xpATsYQXg2SgHV3lOXUfKdQjiE",
-authDomain: "my-family-schedule.firebaseapp.com",
-databaseURL: "https://my-family-schedule.firebaseio.com",
-projectId: "my-family-schedule",
-storageBucket: "my-family-schedule.appspot.com",
-messagingSenderId: "514779290067"
+	apiKey: "AIzaSyCd8wVB2xpATsYQXg2SgHV3lOXUfKdQjiE",
+	authDomain: "my-family-schedule.firebaseapp.com",
+	databaseURL: "https://my-family-schedule.firebaseio.com",
+	projectId: "my-family-schedule",
+	storageBucket: "my-family-schedule.appspot.com",
+	messagingSenderId: "514779290067"
 };
 firebase.initializeApp(config);
 var database = firebase.database();
