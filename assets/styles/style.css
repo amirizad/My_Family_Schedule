@@ -1,0 +1,198 @@
+html {
+    height: 100%;
+    min-width: 320px;
+}
+
+body {
+    height: 100%;
+    background: url(../images/bg.gif) repeat top left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*     background-color: honeydew; */
+    transition: background 0.5s linear;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.jumbotron {
+    background: rgb(200, 54, 54);
+    /* This is for ie8 and below */
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.container-fluid .jumbotron {
+    border-radius: 12px;
+}
+
+.container-fluid .jumbotron h1,
+.welcomeHeader,
+.panel-heading,
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-fluid .jumbotron p {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.page-registration {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.page-members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+.chooseMember {
+    margin: 0 5px 5px;
+}
+
+.firstPagejumbo,
+.completedList {
+    display: none;
+}
+
+.timedEvents > div > .listitem{
+    color: orange;
+}
+
+.panel-default>.panel-heading {
+    line-height: 32px;
+}
+
+.completedList {
+    opacity: 0.5;
+}
+
+.link-icon {
+    cursor: pointer;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+#mapinfo {
+    color: #000066;
+    background-color: #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#mapinfo>p:nth-child(2) {
+    margin: 0;
+}
+
+.page-main {
+    background: url(../images/bg.gif) repeat top left;
+    padding-bottom: 40px;
+    height: 100%;
+}
+
+.note-title {
+    text-align: center;
+    line-height: 0.25;
+}
+
+.creator {
+    font-size: 10px;
+}
+
+input[type=radio] {
+    margin-top: 6px;
+}
+
+.radio-inline {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+#todo-dtpicker {
+    width: 200px;
+}
+
+.currentMemberHeader {
+    text-align: center;
+}
+
+.memberHeaderText {
+    font-size: 14px;
+}
+
+.sortable {
+    padding: 10px;
+}
+
+.hline{
+    padding: 10px;
+    border-bottom: 1px solid #eee;  
+}
+.listitem {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.descpar {
+    margin: 7px 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.btn-primary {
+    background-color: #0070B9;
+    color: white;
+}
+
+.btn-info {
+    background-color: #4286f4;
+    color: white;
+}
+
+.panel-default > .panel-heading {
+  background-color: #f2f2f2;
+}
+
+@media only screen and (min-width: 992px) {
+    .page-main {
+        background-image: url('../images/family2.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.list-group-item:first-child > .badge {
+    background-color:red;
+}
+
